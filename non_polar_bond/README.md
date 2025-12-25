@@ -1,7 +1,8 @@
-# Dipole interaction Simulation (dipole)
+# Non polar Bond Simulation (non_polar_bond)
 
 This project is a **modern migration of an old Java applet** that
-demonstrates the concept of the **polar bond (polare Bindung)** in chemistry.  
+demonstrates the concept of the **Non polar bond (Unpolare Bindung)**
+in chemistry.  
 
 The original Java applet (written in 2007) used `AppletViewer` and
 `MouseListener`.  
@@ -10,30 +11,30 @@ using **HTML5 and JavaScript**.
 
 ## Features
 
-- Interactive simulation of polar bonds  
+- Interactive simulation of non polar bonds  
 - Randomized visual elements to illustrate bond behavior  
 - Mouse click events trigger updates in the simulation  
 - Fully client-side — no Java required  
 
 ## Purpose
 
-This project demonstrates the concept of polar chemical bonds using an interactive simulation.
-The simulation shows two molecules containing atoms with different
-electronegativities (e.g., hydrogen and fluorine) and visualizes how
-electrons are more likely to be found around the more electronegative atom.
-It is intended as a didactical tool for chemistry students to intuitively understand electron distribution and molecular polarity.
+This simulation illustrates the concept of a non polar bond:
+
+- Red dots represent electrons  
+- Their movement demonstrates electron distribution in a non polar bond  
+- Intended as a didactic tool for students learning chemistry
 
 ## How to Use
 
 1. Open `index.html` in a modern web browser (Chrome, Firefox, Edge, Safari)  
 2. Click anywhere on the canvas to interact with the simulation  
-3. Observe the asymmetical electron density and the formation of the intermolecular interaction
+3. Observe changes in the position of the red dots, representing the concept
 
 ## Project Structure
 
-dipole/
+non_polar_bond/
 ├── index.html # Main HTML page
-├── dipole.js # JavaScript code implementing the simulation
+├── non_polar_bond.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
 
