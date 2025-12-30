@@ -36,6 +36,13 @@ function randomElectron(maxRadius) {
   };
 }
 
+function oval(x, y, w, h, color) {
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.arc(x + w / 2, y + h / 2, w / 2, 0, Math.PI * 2);
+  ctx.fill();
+}
+
 /* ---------------- Mouse event ---------------- */
 canvas.addEventListener("mousedown", () => {
   // Generate exactly 3 electrons per click
@@ -61,7 +68,13 @@ function drawLabels() {
   // RIGHT label
   ctx.font = "16px Times New Roman";
   ctx.fillText("C. Villani, 2006", canvas.width - 200, 25);
+
+  // Legend symbols
+  oval(15, 112, 5, 5, "black"); // electron
+  oval(13, 70, 10, 10, "red");  // proton
+  oval(13, 90, 10, 10, "blue"); // neutron
 }
+
 
 function drawNucleus() {
   // protons
