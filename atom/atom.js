@@ -39,9 +39,13 @@ function paint() {
   ctx.fillText(" = Neutron", 20, 100);
   ctx.fillText(" = Elektron", 20, 120);
 
+  // Old Signature
+  // ctx.font = "bold 16px Times New Roman";
+  // ctx.fillText(" C. Villani, 2006", 720, 20);
+
   // Signature
-  ctx.font = "bold 16px Times New Roman";
-  ctx.fillText(" C. Villani, 2006", 720, 20);
+  ctx.font = "16px Times New Roman";
+  ctx.fillText("C. Villani, 2006", canvas.width - 200, 25);
 
   // Legend symbols
   oval(15, 112, 5, 5, "black"); // electron

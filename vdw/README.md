@@ -1,4 +1,4 @@
-# Van der Waals Interaction Simulation (polar_bond)
+# Van der Waals Interaction Simulation (vdw)
 
 This project is a **modern migration of an old Java applet** that
 demonstrates the concept of the **polar bond (polare Bindung)** in chemistry.  
@@ -10,7 +10,7 @@ using **HTML5 and JavaScript**.
 
 ## Features
 
-- Interactive simulation of polar bonds  
+- Interactive simulation of van der Waals interaction
 - Randomized visual elements to illustrate bond behavior  
 - Mouse click events trigger updates in the simulation  
 - Fully client-side — no Java required  
@@ -32,7 +32,7 @@ non polar molecules
 
 ## Project Structure
 
-polar_bond/
+vdw/
 ├── index.html # Main HTML page
 ├── vdw.js # JavaScript code implementing the simulation
 ├── README.md # This file
