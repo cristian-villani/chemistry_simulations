@@ -31,11 +31,13 @@ This simulation illustrates the concept of a polar bond:
 
 ## Project Structure
 
+```
 polar_bond/
 ├── index.html # Main HTML page
 ├── polar.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 

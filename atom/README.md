@@ -25,11 +25,13 @@ The simulation shows a lithium atom and visualizes the constant motion of electr
 
 ## Project Structure
 
+```
 atom/
 ├── index.html # Main HTML page
 ├── atom.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 

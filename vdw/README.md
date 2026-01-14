@@ -32,11 +32,13 @@ non polar molecules
 
 ## Project Structure
 
+```
 vdw/
 ├── index.html # Main HTML page
 ├── vdw.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 

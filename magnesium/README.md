@@ -26,11 +26,13 @@ The simulation uses different colors to illustrate the behavior of electrons in 
 
 ## Project Structure
 
+```
 atom/
 ├── index.html # Main HTML page
 ├── magnesium.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 

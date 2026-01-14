@@ -33,11 +33,13 @@ It is intended as a didactical tool for chemistry students to intuitively unders
 
 ## Project Structure
 
+```
 non_polar/
 ├── index.html # Main HTML page
 ├── non_polar.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 

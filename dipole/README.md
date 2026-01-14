@@ -31,11 +31,13 @@ It is intended as a didactical tool for chemistry students to intuitively unders
 
 ## Project Structure
 
+```
 dipole/
 ├── index.html # Main HTML page
 ├── dipole.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 

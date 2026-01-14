@@ -32,11 +32,13 @@ This simulation illustrates the concept of a non polar bond:
 
 ## Project Structure
 
+```
 non_polar_bond/
 ├── index.html # Main HTML page
 ├── non_polar_bond.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 
