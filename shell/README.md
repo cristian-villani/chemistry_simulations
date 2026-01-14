@@ -25,11 +25,13 @@ The simulation illustrates how space around the lithium nucleus can be divided i
 
 ## Project Structure
 
+```
 atom/
 ├── index.html # Main HTML page
 ├── shell.js # JavaScript code implementing the simulation
 ├── README.md # This file
 ├── LICENSE # MIT License file
+```
 
 ## License
 
